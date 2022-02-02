@@ -407,6 +407,7 @@ namespace BoletoNetCore
                 case TipoEspecieDocumento.RC:
                     return "05";
                 case TipoEspecieDocumento.DS:
+                case TipoEspecieDocumento.DSI:
                     return "08";
                 case TipoEspecieDocumento.LC:
                     return "09";
